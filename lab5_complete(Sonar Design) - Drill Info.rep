@@ -1,0 +1,49 @@
+ULTIBOARD DRILL REPORT
+
+Design: lab5_complete(Sonar Design)
+
+DRILL FILE SETTINGS
+Excellon 2, Absolute, Inch, 2.5 
+
+
+DEFINITION COPPER LAYERS
+Top Stack-up 1
+Copper Top
+Copper Inner 1
+Copper Inner 2
+Copper Bottom
+Bottom Stack-up 1
+
+
+--------------------------------------------------------------------
+
+DRILLFILE                                                        LAMINATION
+lab5_complete(Sonar Design) - Top Stack-up 1-Copper Bottom.drl   Top Stack-up 1 .. Copper Bottom
+
+TOOL     SIZE   TYPE  COUNT
+   1  0.02362    PTH      1
+
+
+--------------------------------------------------------------------
+
+DRILLFILE                                                     LAMINATION
+lab5_complete(Sonar Design) - Top Stack-up 1-Copper Top.drl   Top Stack-up 1 .. Copper Top
+
+TOOL     SIZE   TYPE  COUNT
+   1  0.00787    PTH      5
+
+
+--------------------------------------------------------------------
+
+DRILLFILE                                                            LAMINATION
+lab5_complete(Sonar Design) - Top Stack-up 1-Bottom Stack-up 1.drl   Top Stack-up 1 .. Bottom Stack-up 1
+
+TOOL     SIZE   TYPE  COUNT
+   1  0.03500    PTH    202
+   2  0.04750    PTH      2
+   3  0.03543    PTH     24
+   4  0.02333    PTH      4
+   5  0.04000    PTH      3
+   6  0.02362    PTH      3
+   7  0.05167    PTH      2
+   8  0.20000   NPTH      2
